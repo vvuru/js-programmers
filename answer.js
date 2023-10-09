@@ -1,5 +1,13 @@
-//https://school.programmers.co.kr/learn/courses/30/lessons/120898
-function solution(message) {
-    return message.length * 2;
+/**
+ * https://school.programmers.co.kr/learn/courses/30/lessons/120854
+ */
+function solution(strlist) {
+    let answer = [];
+    strlist.forEach((val)=>{
+        answer.push(val.length);
+    })
+    return answer;
 }
-console.log(solution("happy birthday~"));
+
+strlist = ["We","are","the","world!"];
+console.log(solution(strlist));
