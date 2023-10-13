@@ -13,4 +13,5 @@ const rl = readline.createInterface({
     console.log(str)
 });
 
+fu
 
