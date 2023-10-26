@@ -10,4 +10,3 @@ function calculateDaysBetweenDates(begin, end) {
 
 console.log(calculateDaysBetweenDates('2023-10-15 23:33:22','2023-10-10 23:33:22'));
 
-function calculateDDay
